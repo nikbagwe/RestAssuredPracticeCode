@@ -21,8 +21,8 @@ public class GetAPIRequest {
                 request.queryParam("status","active");
                 request.queryParam("name","naveen");
 
-
-        //Response
+// dummy test git
+         //Response
         Response response = request.get("/public/v2/users");
         response.prettyPrint();
         String responseString = response.body().asString();
